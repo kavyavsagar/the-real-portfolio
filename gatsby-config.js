@@ -15,25 +15,28 @@ module.exports = {
     menu: [
       {
         label: 'Articles',
-        path: 'http://kavyavsagar.blogspot.com/',
+        path: 'http://kavyavsagar.blogspot.com',
+        external: true
       },
       {
         label: 'About me',
         path: '/about/',
+        external: false
       },
       {
         label: 'Contact me',
         path: '/contact/',
+        external: false
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      name: 'Kavya Sagar',
+      email: 'kavyavidyasagar15@gmail.com',
+      // telegram: '#',
+      twitter: 'kavyavsagar',
+      github: 'kavyavsagar',
+      // rss: '#',
+      // vk: '#',
     },
   },
   plugins: [

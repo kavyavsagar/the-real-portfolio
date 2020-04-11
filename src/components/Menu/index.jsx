@@ -10,13 +10,18 @@ class Menu extends React.Component {
       <ul className="menu__list">
         {menu.map(item => (
           <li className="menu__list-item" key={item.path}>
-            <Link
+          (!item.external)? <Link
               to={item.path}
               className="menu__list-item-link"
-              activeClassName="menu__list-item-link menu__list-item-link--active"
-            >
+              activeClassName="menu__list-item-link menu__list-item-link--active">
               {item.label}
-            </Link>
+            </Link> : <a
+              href={item.path} target="_blank" 
+              className="menu__list-item-link"
+              activeClassName="menu__list-item-link menu__list-item-link--active">
+              {item.label}
+            </a> 
+
           </li>
         ))}
       </ul>
