@@ -7,15 +7,15 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'Blog by Kavya Sagar',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'Full-Stack Developer who buildup quality & user fiendly applications',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
       {
         label: 'Articles',
-        path: '/',
+        path: 'http://kavyavsagar.blogspot.com/',
       },
       {
         label: 'About me',
